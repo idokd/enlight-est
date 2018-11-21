@@ -275,6 +275,5 @@ body {
     #popups .garranty-popup .popup-content {
       padding: 0 10vw; }
       #popups .garranty-popup .popup-content .popup-item .item-image {
-        display: inline-block;
-        width: 40%; }
+      }
 }
