@@ -7,8 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Import Bootstrap 4 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <!-- Import FontAwesome v4.7.0 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Import Owl Carousel v2.3.4 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -16,7 +14,7 @@
   <!-- Import Custom CSS -->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
 </head>
-<body>
+<body data-title="introPage">
   <!-- Start Intro section -->
   <section id="intro">
     <div class="owl-carousel owl-theme">
@@ -48,7 +46,7 @@
         <div class="bottom-content">
           <h2 class="font-20 text">¡HAZLO POR EL AHORRO, PRESÚMELO POR EL PLANETA!</h2>
           <h3 class="font-15 text">Tu nuevo estilo de vida ayudará a construir un futuro más sustentable.</h3>
-          <a href="#" id="changeBtn" class="customBtn font-15 text">TU CAMBIO INICIA AHORA</a>
+          <a href="dashboard.html" id="changeBtn" class="customBtn font-15 text">TU CAMBIO INICIA AHORA</a>
         </div>
       </div>
     </div>
@@ -62,20 +60,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <!-- Import Google Map API key -->
   <!-- Import Custom Script -->
-  <script>
-  //  Init Carousel
-  $("#intro .owl-carousel").owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: false,
-    animateOut: 'fadeOut',
-    autoplay: true,
-    autoplayTimeout: 5000,
-    autoplayHoverPause: true,
-    responsive: {
-        0: { items: 1 }
-    }
-  });
-  </script>
+  <script src="assets/script.js"></script>
 </body>
 </html>

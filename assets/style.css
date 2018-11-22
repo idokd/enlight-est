@@ -395,3 +395,36 @@ body {
     #popups #vesta-popup .content-item .content-item-row .col {
       padding: 0px; }
 }
+
+/*** Dashboard stylesheet
+******************************************/
+/* Responsive for mobile */
+@media only screen and (max-width: 768px) {
+  #dashboard .header a img {
+    transform: rotate(-90deg);
+    margin-left: 5vw;
+    margin-top: 4vh; }
+  #dashboard .header label {
+    text-align: center;
+    font-size: 6vw;
+    letter-spacing: 1px; }
+  #dashboard .body .page {
+  }
+    #dashboard .body .page .bimonthly {
+      text-align: center;
+    }
+  #dashboard .footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 3vh 3vw;
+    width: 100%;
+    text-align: center; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+    #dashboard .footer .logo {
+      margin-bottom: 1.5vh; }
+      #dashboard .footer .logo img {
+        width: 13vw; }
+    #dashboard .footer .customBtn {
+      font-size: 2.8vw;
+      padding: 1vh; }
+}
