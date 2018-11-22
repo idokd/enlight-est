@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Payment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Import Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Import Custom CSS -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+</head>
+<body data-title="paymentPage">
+  <!-- Start Enlight section -->
+  <section id="payment">
+    <div class="header">
+      <label class="font-25 text title">FORMAS DE PAGO</label>
+      <a><img src="assets/images/icons/share.png" alt=""></a>
+    </div>
+    <div class="content">
+      <div class="carousel slide carousel-fade" data-ride="carousel" id="paymentCarousel" data-interval="false">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#paymentCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#paymentCarousel" data-slide-to="1"></li>
+          <li data-target="#paymentCarousel" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="part1">
+            <a data-target="#paymentCarousel" data-slide-to="1" class="card card-right"></a>
+            <div class="item-content">
+              <div class="font-regular font-20 text">PAGO DE CONTADO</div>
+              <div class="font-regular font-10 text">LA FORMA MÁS RENTABLE</div>
+              <div><img src="assets/images/icons/wallet.png" alt=""></div>
+              <div class="font-regular font-20 text" id="item-1">MXN $104,526</div>
+              <div class="discount-step1">
+                <div class="font-regular font-20 text">MXN $104,526</div>
+                <div class="font-regular text-10 text color-orange">+ 1 panel gratis si pagas hoy mismo.</div>
+              </div>
+              <div class="discount-step2">
+                <div class="font-regular font-15 text oldPrice">MXN $104,526</div>
+                <div class="font-regular font-10 text color-orange">¡10% de descuento si lo compras hoy!</div>
+                <div class="font-regular font-20 text">MXN $94,073</div>
+              </div>
+              <div class="font-regular font-15 text" id="item-2">Condiciones de pago:</div>
+              <div class="font-15 text" id="item-3">70% anticipo<br>20% Post Instalación<br>10% Pre encendido</div>
+              <div id="item-4"><a class="customBtn font-15 text" id="chooseBtn1">ELEGIR ESTA FORMA DE PAGO</a></div>
+            </div>
+          </div>
+          <div class="carousel-item" id="part2">
+            <a data-target="#paymentCarousel" data-slide-to="0" class="card card-left"></a>
+            <a data-target="#paymentCarousel" data-slide-to="2" class="card card-right"></a>
+            <div class="item-content">
+                <div class="font-regular font-20 text">MESES SIN INTERESES</div>
+                <div class="font-regular font-10 text">TARJETAS DE CRÉDITO</div>
+                <div><img src="assets/images/icons/schedule.png" alt=""></div>
+                <div class="row">
+                  <div class="col">
+                    <p class="font-regular font-12 text">MESES</p>
+                    <p class="font-12 text">12 meses</p>
+                    <p class="font-12 text">18 meses</p>
+                    <p class="font-12 text">24 meses</p>
+                  </div>
+                  <div class="col">
+                    <p class="font-regular font-12 text">MONTO POR MES</p>
+                    <p class="font-12 text">$10,000.00</p>
+                    <p class="font-12 text">$6,666.66</p>
+                    <p class="font-12 text">$5,000.00</p>
+                  </div>
+                </div>
+                <div class="font-regular font-10 text" id="part2-item1"> *Plazo a 12 meses aplica con todas las tarjetas de crédito. *Plazo de 18 y 24 meses sólo aplica con Tarjetas AMEX y BBVA.</div>
+                <div id="item-4"><a id="chooseBtn2" class="customBtn font-15 text" id="chooseBtn2">ELEGIR ESTA FORMA DE PAGO</a></div>
+            </div>
+          </div>
+          <div class="carousel-item" id="part3">
+            <a data-target="#paymentCarousel" data-slide-to="1" class="card card-left"></a>
+            <div class="item-content">
+                <div class="font-regular font-20 text">ENLIGHT MEMBERSHIP</div>
+                <div class="font-regular font-10 text">FINANCIAMIENTO</div>
+                <div><img src="assets/images/icons/certification.png" alt=""></div>
+                <div class="row">
+                  <div class="col">
+                    <p class="font-regular font-12 text">CONCEPTO</p>
+                    <p class="font-10 text">Pago a la compañía de luz:</p>
+                    <p class="font-10 text"> ago Enlight Membership:</p>
+                    <p class="font-regular font-10 text">TOTAL MENSUAL:</p>
+                  </div>
+                  <div class="col">
+                    <p class="font-regular font-12 text">MONTO POR MES</p>
+                    <p class="font-10 text">$332</p>
+                    <p class="font-10 text">$2,216</p>
+                    <p class="font-10 text">$2,548</p>
+                  </div>
+                </div>
+                <div class="font-regular font-10 text text-left" id="part3-item1"> 
+                  <ul>
+                    <li>Enganche del 10% del costo total de tu sistema.</li>
+                    <li>Al final del plazo de tu Enlight Membership habrás ahorrado:$318,000 MXN.</li>
+                    <li>Crédito a 10 años con un CAT de 9.2%.</li>
+                    <li>Desde el año 1 comenzarás a ahorrar.</li>
+                    <li>El esquema Enlight Membership es sujeto a aprobación de crédito.</li>
+                  </ul>
+                </div>
+                <div id="item-4"><a id="chooseBtn2" class="customBtn font-15 text" id="chooseBtn3">ELEGIR ESTA FORMA DE PAGO</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <a href="" id="backBtn"><img src="assets/images/icons/arrow-up.png" alt=""></a>
+      <a id="logoBtn"><img src="assets/images/logos/logo_enlight.png" alt="" class="footer-right"></a>
+    </div>
+    <div class="chooseForm transparent-background">
+      <div class="selector text-center">
+        <a class="upBtn"><img src="assets/images/icons/arrow_up_big.png" alt=""></a>
+        <div class="font-regular font-12 text">MESES</div>
+        <div class="font-35 text">12</div>
+        <a class="downBtn"><img src="assets/images/icons/arrow_down_big.png" alt=""></a>
+        <div><a class="customBtn font-15 text" id="okBtn">OK</a></div>
+      </div>
+    </div>
+    <div class="discountForm">
+      <span class="transparent-background"></span>
+      <a class="font-regular font-20 text" id="freePanel">¡Paga hoy mismo de contado y te regalamos un panel adicional totalmente gratis!</a>
+    </div>
+    <div class="discountFinal">
+      <span class="transparent-background"></span>
+      <a id="goPaymentBtn"><img src="assets/images/effects/payment_1.png" alt=""></a>
+    </div>
+  </section> <!-- End Enlight section -->
+  <!-- Start Popup Section -->
+  <section id="popups">
+  </section> <!-- End Popup Section -->
+  <!-- Import jQuery and Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- Import Bootstrap carousel slide Plugin -->
+  <script src="assets/plugins/bootstrap-swipe-carousel.min.js"></script>
+  <!-- Import Custom Script -->
+  <script src="assets/script.js"></script>
+</body>
+</html>
