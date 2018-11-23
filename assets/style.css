@@ -22,7 +22,7 @@ body {
 .font-40 {
   font-size: 10.8vw; }
 .font-35 {
-  font-size: 35px; }
+  font-size: 9.4vw; }
 .font-30 {
   font-size: 8vw; }
 .font-25 {
@@ -40,11 +40,11 @@ body {
   letter-spacing: 0.4px;
 }
 .font-10 {
-  font-size: 10px;
+  font-size: 2.8vw;
   letter-spacing: 0.3px;
 }
 .font-8 {
-  font-size: 8px;
+  font-size: 2.2vw;
   letter-spacing: 0.2px;
 }
 .customBtn {
@@ -325,6 +325,8 @@ body {
         top: 5vh; }
       #enlight .carousel #system-part .item-content .list-items .list-item div img {
         margin: 0; }
+      #enlight .carousel #system-part .item-content .list-items .list-item #howWorks #connectImg {
+        width: 100%; }
       #enlight .carousel #system-part .item-content .list-items .list-item #howSave .row img,
       #enlight .carousel #system-part .item-content .list-items .list-item #howSave .row .col-10 div {
         margin-bottom: 5vh; }
@@ -456,14 +458,18 @@ body {
             margin-top: 7vh; }
           #characteristic .characteristic-page .popup-div .content .content-main .consume-energy .customBtn {
             display: inline-block;
-            width: 12vw;
-            height: 4vh;;
+            width: 13vw;
             padding: 1vh 1vw;
-            box-shadow: 0 0px 3px rgba(0, 255, 210, 0.5); }
-            #characteristic .characteristic-page .popup-div .content .content-main .consume-energy .customBtn.disabled {
+            box-shadow: none; }
+            #characteristic .characteristic-page .popup-div .content .content-main .consume-energy .manualInput {
+              display: inline-block;
+              text-align: center;
+              width: 13vw;
+              padding: 1vh 1vw;
               text-decoration: underline;
               color: #70707060;
-              border-color: #70707059; }
+              border: 1.4px solid #70707059;
+              border-radius: 5px; }
             #characteristic .characteristic-page .popup-div .content .content-main .consume-energy #consume-1 {
               margin-top: 4vh; }
             #characteristic .characteristic-page .popup-div .content .content-main .consume-energy #consume-2 {
@@ -553,6 +559,10 @@ body {
     #payment .content .carousel-inner .carousel-item .item-content {
       padding: 4vh 4vw;
       text-align: center; }
+    #payment .content .carousel-inner .carousel-item .item-content #item-4 {
+      position: absolute;
+      bottom: 4vh;
+      left: 20vw; }
     #payment .content .carousel-inner .carousel-item .item-content .discount-step1,
     #payment .content .carousel-inner .carousel-item .item-content .discount-step2 {
       display: none; }
@@ -635,6 +645,208 @@ body {
       margin-top: 1.5vh; }
 }
 
+/*** NextStep stylesheet
+******************************************/
+@media only screen and (max-width: 768px) {
+  #nextstep .page {
+    display: none; }
+    #nextstep .page.active {
+      display: block;
+    }
+    #nextstep .header {
+      position: fixed;
+      top: 0px;
+      padding: 2vh 5vw; }
+    #nextstep .previous-content {
+      height: 100vh;
+      padding: 0vh 5vw;
+      background-color: white;
+      text-align: center;
+    }
+    #nextstep .content {
+      height: 100vh;
+      margin-top: 47vh;
+      padding: 0 5vw;
+      background-color: white;
+      text-align: center;
+    }
+      #nextstep .content #topCircle {
+        position: absolute;
+        top: 0;
+        left: -2vw; }
+      #nextstep .content #topBanner {
+        position: fixed;
+        width: 100vw;
+        top: 0px;
+        left: 0px;
+        z-index: -1; }
+      #nextstep .content .step-bar{
+        position: fixed;
+        top: 22vh;
+        right: 3vw; }
+        #nextstep .content .step-bar a {
+          display: block; }
+      #nextstep .content #item1,
+      #nextstep .previous-content #item1 {
+        padding-top: 8vw; }
+      #nextstep .content #item2,
+      #nextstep .previous-content #item2 {
+        padding: 2vh; }
+      #nextstep .content #item3,
+      #nextstep .previous-content #item3 {
+        margin-bottom: 3vh;
+        padding: 0 5vw 0 3vw; }
+      #nextstep .content #item4,
+      #nextstep .previous-content #item4 {
+        padding: 0 5vw 0 3vw; }
+    /* First Page */
+    #nextstep #firstPage .content {
+      margin-top: 0;
+      padding: 8vh 5vw; }
+      #nextstep #firstPage .content #item1 {
+        margin-top: 21vh;
+        padding: 0 10vw; }
+      #nextstep #firstPage .content #item2 {
+        margin-top: 5vh;
+        padding: 0 10vw; }
+      #nextstep #firstPage .content #item3 {
+        margin: 5vh auto 7vh;
+        padding: 0 10vw; }
+      #nextstep #firstPage .content #checkBtn {
+        padding: 0.7vh 16vw; }
+    /* Second Page */
+    #nextstep #secondPage .content {
+      margin-top: 0;
+      padding: 8vh 5vw; }
+      #nextstep #secondPage .content .row {
+        margin-top: 6vh; }
+        #nextstep #secondPage .content .row .icon {
+          margin-top: 1vh;
+          margin-bottom: 9vh; }
+        #nextstep #secondPage .content .row .icon:last-child {
+          margin-top: 0; }
+        #nextstep #secondPage .content .row .step {
+          text-align: left;
+          font-size: 18px;
+          margin-bottom: 9vh;
+        }
+    /* Step1 Page */
+    #nextstep #step1Page .content {
+    }
+    #nextstep #step1Page .content #item2,
+    #nextstep #step2Page .previous-content #item2 {
+      padding: 3vh; }
+    #nextstep #step1Page .content #item3,
+    #nextstep #step2Page .previous-content #item3 {
+      margin-bottom: 1vh; }
+    #nextstep #step1Page ul,
+    #nextstep #step2Page .previous-content ul {
+      padding-right: 2vw; }
+    #nextstep #step1Page ul li,
+    #nextstep #step2Page .previous-content ul li {
+        margin-bottom: 1vh; }
+    /* Step2 Page */
+    #nextstep #step2Page .content #item2,
+    #nextstep #step3Page .previous-content #item2 {
+      padding: 2vh; }
+    #nextstep #step2Page .content #item3,
+    #nextstep #step3Page .previous-content #item3 {
+      margin-bottom: 3vh;
+      padding: 0 3vw; }
+    #nextstep #step2Page .content #item4,
+    #nextstep #step3Page .previous-content #item4 {
+      padding: 0 3vw; }
+      #nextstep #step2Page .content #item4 a,
+      #nextstep #step3Page .previous-content #item4 a {
+        text-decoration: underline;
+        margin-right: 3vw; }
+        #nextstep #step2Page .content #item4 img,
+        #nextstep #step3Page .previous-content img {
+          width: 5vw; }      
+    /* Step3 Page */
+
+    /* Common Footer */
+    #nextstep .footer {
+      position: fixed;
+      bottom: 0px;
+      height: 7vh;
+      width: 100vw;
+      padding: 2vh 2vw;
+      background-color: #00FFD2; 
+      text-align: center; }
+      #nextstep .footer a {
+        background: white;
+        border-radius: 5px;
+        padding: 0.5vh 3vw;
+      }
+}
+/*** Gratitue stylesheet
+******************************************/
+/* Responsive for mobile */
+@media only screen and (max-width: 768px) {
+  #gratitute .page {
+  }
+    #gratitute .page .header {
+      position: fixed;
+      top: 0px;
+      padding: 2vh 5vw; }
+    #gratitute .page .content {
+      height: 60vh;
+      margin-top: 38.2vh;
+      padding: 0 6.7vw;
+      background-color: white;
+      text-align: center;
+    }
+      #gratitute .page .content #bannerImg {
+        position: fixed;
+        width: 100vw;
+        top: 0px;
+        left: 0px;
+        z-index: -1; }
+      #gratitute .page .content .title {
+        font-size: 5.9vw;
+        padding: 4vh 0 2.9vh 0; 
+        letter-spacing: 3px; }
+      #gratitute .page .content .content-body {
+        padding: 3vh 8vw;
+        border: 1px solid #00FFD2;
+        border-radius: 5px;
+      }
+      #gratitute .page .content .content-body#part1,
+      #gratitute .page .content .content-body#part3 {
+        display: none; }
+      #gratitute .page .content .content-body .logos #rightLogo {
+        float: right;
+        width: 61px;
+        margin-top: 1vh; }
+        #gratitute .page .content .content-body #item1 {
+          display: flex;
+          width: 100%;
+          margin: 3vh auto 0vh;
+        }    
+        #gratitute .page .content .content-body #item1 .number {
+          padding: 0 2vw; }   
+        #gratitute .page .content .content-body #item1 .plus {
+          padding: 0 2vw;   
+          display: flex;
+          align-items: center;
+        }        
+        #gratitute .page .content .content-body .changeBlock #yearCat {
+          margin-bottom: 1vh; }
+          #gratitute .page .content .content-body #subjectApproval {
+            margin: 1vh auto; }        
+            #gratitute .page .content .content-body .requestBtn {
+              display: block;
+              letter-spacing: 0;
+              width: 100%;
+              padding: 0.5vh 1vw; }    
+        #gratitute .page .content .content-body#part1 .changeBlock {
+          margin: 4vh; }   
+        #gratitute .page .content .content-body#part2 .changeBlock {
+          margin-bottom: 3vh; }        
+        #gratitute .page .content .content-body#part2 .changeBlock #months {
+          padding: 2vh 0; }
+}
 
 /*** Dashboard stylesheet
 ******************************************/

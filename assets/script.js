@@ -95,12 +95,18 @@ $(document).ready(function(){
         $('#chooseBtn1').addClass('step2');
       }
     });
+    // Clicks Ok Btn
+    $('#okBtn').on('click', function() {
+      $('.chooseForm').toggle();
+    });
     // 
     $('#chooseBtn1').on('click', function() {
+      // Goes Page 51
       if ($(this).hasClass('step2')) {
         $('.discountForm').toggle();
         $('#freePanel').addClass('step2');
       }
+      // Goes Page 54
       else if ($(this).hasClass('step3')) {
         $('.discountFinal').toggle();
       }
@@ -108,12 +114,51 @@ $(document).ready(function(){
         console.log('Choose Payment');
       }
     });
+    // Go to Payment page when clicks image (Page 50)
     $('#goPaymentBtn').on('click', function() {
       $('.discountFinal').toggle();
       $('.discount-step2').toggle();
       $('#chooseBtn1').removeClass('step3');
       $('#freePanel').removeClass('step3');
       $('#item-1').toggle();
-    })
+    });
+    // Mess Count Change 
+    var mesesCnt = $('#mesesCnt')[0].innerText;
+    // Clicks up count button
+    $('.upBtn').on('click', function() {
+      if (mesesCnt < 12 ) {
+        // Enable downBtn
+        if (mesesCnt == 0) $('.downBtn img').attr('src', 'assets/images/icons/arrow_down_big.png');
+
+        mesesCnt ++;
+        if (mesesCnt == 12) {
+          $('.upBtn img').attr('src', 'assets/images/icons/arrow_up_big_disabled.png');
+        } 
+        $('#mesesCnt')[0].innerText = mesesCnt;
+      }
+    });
+    // Clicks down btn
+    $('.downBtn').on('click', function() {
+      if (mesesCnt > 0) {
+        // Enable upBtn
+        if (mesesCnt == 12) $('.upBtn img').attr('src', 'assets/images/icons/arrow_up_big.png');
+
+        mesesCnt --;
+        if (mesesCnt == 0) $('.downBtn img').attr('src', 'assets/images/icons/arrow_down_big_disabled.png');
+        $('#mesesCnt')[0].innerText = mesesCnt;
+      }
+    });
+  }
+    /* Next Steps
+  **************************************************/
+  if ($('body').data('title') == 'nextstepPage') {
+    // Next Page Btn
+    $('.activePageBtn').on('click', function() {
+      var parent =  $($(this).data('parent'));
+      var target =  $($(this).data('target'));
+      parent.removeClass("active");
+      target.addClass("active");
+      $(document).scrollTop(0);
+    });
   }
 });
