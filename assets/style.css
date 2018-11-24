@@ -87,56 +87,55 @@ body {
       #intro .shareBtn img {
         width: 10.5vw; 
         transition: all 0.2s ease-in-out; }
-    #intro .owl-carousel .item .slider-img {
-      width: 100vw; 
-      height: 100vh; }
-    #intro .owl-carousel .owl-dots {
+    #intro .carousel .carousel-indicators {
       position: fixed;
       bottom: 10px;
       width: 100%;
-      margin: auto; }
-      #intro .owl-carousel .owl-dots .owl-dot span {
-        margin: 5px 2px; }
-      #intro .owl-carousel .owl-dots .owl-dot.active span {
-        background: #26D2C4; }
-    #intro .owl-carousel #intro-part-1 .title {
+      margin: auto;
+      z-index: 11; }
+      #intro .carousel .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%; 
+        background-color: #EAE8E8; }
+        #intro .carousel .carousel-indicators li.active {
+          background-color: #26D2C4; }
+    #intro .carousel .carousel-inner .carousel-item {
+      height: 100vh; }
+    #intro .slider-img {
+      width: 100vw; }
+    #intro #intro-part-1 .title {
       position: fixed;
       top: 10vw;
       left: 9vw;
       width: 64vw; }
-    #intro .owl-carousel #intro-part-2 .slider-img {
-      height: auto;
-      margin-top: -8vh; }
-      #intro .owl-carousel #intro-part-2 .bottom-content {
-        position: fixed;
-        bottom: -7vh;
+      #intro #intro-part-2 .bottom-content {
         width: 100vw;
         height: 22vh; 
         padding-top: 2.4vh;
         background-color: white;
         text-align: center; }
-    #intro .owl-carousel #intro-part-3 .bottom-content {
+    #intro #intro-part-3 #googleMap {
+      position: unset !important;
+    }
+    #intro #intro-part-3 .bottom-content {
       position: fixed;
       bottom: 0px;
       width: 100vw;
       height: 22vh; 
-      padding-top: 2.4vh;
+      padding: 2.4vh 4vw;
       background-color: white;
       text-align: center; }
-    #intro .owl-carousel #intro-part-4 img {
-      height: auto; }
-      #intro .owl-carousel #intro-part-4 .bottom-content {
-        position: fixed;
+      #intro #intro-part-4 .bottom-content {
         bottom: -10vh;
         width: 100vw;
-        height: 25vh;
         padding: 2.4vh 10vw;
         background-color: white;
         text-align: center; }
-        #intro .owl-carousel #intro-part-4 .bottom-content h3 {
+        #intro #intro-part-4 .bottom-content h3 {
           margin-bottom: 2.3vh;
         }
-        #intro .owl-carousel #intro-part-4 .bottom-content #changeBtn {
+        #intro #intro-part-4 .bottom-content #changeBtn {
           padding: 1vh 4vw; }
         
 }
@@ -626,8 +625,7 @@ body {
       padding: 5vh 15vw;
       background: white;
       color: #FF6C00;
-      text-align: center;
-    }
+      text-align: center; }
   #payment .footer {
     position: fixed;
     bottom: 0px;
@@ -661,15 +659,13 @@ body {
       height: 100vh;
       padding: 0vh 5vw;
       background-color: white;
-      text-align: center;
-    }
+      text-align: center; }
     #nextstep .content {
       height: 100vh;
       margin-top: 47vh;
       padding: 0 5vw;
       background-color: white;
-      text-align: center;
-    }
+      text-align: center; }
       #nextstep .content #topCircle {
         position: absolute;
         top: 0;
@@ -703,6 +699,8 @@ body {
     #nextstep #firstPage .content {
       margin-top: 0;
       padding: 8vh 5vw; }
+      #nextstep #firstPage .content #topCircle {
+        width: 100vw; }
       #nextstep #firstPage .content #item1 {
         margin-top: 21vh;
         padding: 0 10vw; }
@@ -722,13 +720,13 @@ body {
         margin-top: 6vh; }
         #nextstep #secondPage .content .row .icon {
           margin-top: 1vh;
-          margin-bottom: 9vh; }
+          margin-bottom: 59px; }
         #nextstep #secondPage .content .row .icon:last-child {
           margin-top: 0; }
         #nextstep #secondPage .content .row .step {
           text-align: left;
           font-size: 18px;
-          margin-bottom: 9vh;
+          margin-bottom: 59px;
         }
     /* Step1 Page */
     #nextstep #step1Page .content {
@@ -761,7 +759,7 @@ body {
         text-decoration: underline;
         margin-right: 3vw; }
         #nextstep #step2Page .content #item4 img,
-        #nextstep #step3Page .previous-content img {
+        #nextstep #step3Page .previous-content #item4 img {
           width: 5vw; }      
     /* Step3 Page */
 
@@ -777,75 +775,96 @@ body {
       #nextstep .footer a {
         background: white;
         border-radius: 5px;
-        padding: 0.5vh 3vw;
-      }
+        padding: 0.5vh 3vw; }
+}
+@media only screen and (max-width: 320px) {
+  #nextstep #secondPage .content .icon,
+  #nextstep #secondPage .content .step {
+    margin-bottom: 9vh !important; }
+  #nextstep #secondPage .content #stepBar {
+    height: 74vh; }
+
 }
 /*** Gratitue stylesheet
 ******************************************/
 /* Responsive for mobile */
 @media only screen and (max-width: 768px) {
-  #gratitute .page {
+  #gratitude .page {
   }
-    #gratitute .page .header {
+    #gratitude .page .header {
       position: fixed;
       top: 0px;
       padding: 2vh 5vw; }
-    #gratitute .page .content {
+    #gratitude .page .content {
       height: 60vh;
       margin-top: 38.2vh;
       padding: 0 6.7vw;
       background-color: white;
-      text-align: center;
-    }
-      #gratitute .page .content #bannerImg {
+      text-align: center; }
+      #gratitude .page .content #bannerImg {
         position: fixed;
         width: 100vw;
         top: 0px;
         left: 0px;
         z-index: -1; }
-      #gratitute .page .content .title {
+      #gratitude .page .content .title {
         font-size: 5.9vw;
         padding: 4vh 0 2.9vh 0; 
         letter-spacing: 3px; }
-      #gratitute .page .content .content-body {
+      #gratitude .page .content .content-body {
         padding: 3vh 8vw;
         border: 1px solid #00FFD2;
-        border-radius: 5px;
-      }
-      #gratitute .page .content .content-body#part1,
-      #gratitute .page .content .content-body#part3 {
+        border-radius: 5px; }
+      #gratitude .page .content .content-body#part2,
+      #gratitude .page .content .content-body#part3 {
         display: none; }
-      #gratitute .page .content .content-body .logos #rightLogo {
+      #gratitude .page .content .content-body .logos #rightLogo {
         float: right;
         width: 61px;
         margin-top: 1vh; }
-        #gratitute .page .content .content-body #item1 {
+        #gratitude .page .content .content-body #item1 {
           display: flex;
           width: 100%;
           margin: 3vh auto 0vh;
         }    
-        #gratitute .page .content .content-body #item1 .number {
+        #gratitude .page .content .content-body #item1 .number {
           padding: 0 2vw; }   
-        #gratitute .page .content .content-body #item1 .plus {
+        #gratitude .page .content .content-body #item1 .plus {
           padding: 0 2vw;   
           display: flex;
-          align-items: center;
-        }        
-        #gratitute .page .content .content-body .changeBlock #yearCat {
+          align-items: center; }        
+        #gratitude .page .content .content-body .changeBlock #yearCat {
           margin-bottom: 1vh; }
-          #gratitute .page .content .content-body #subjectApproval {
+          #gratitude .page .content .content-body #subjectApproval {
             margin: 1vh auto; }        
-            #gratitute .page .content .content-body .requestBtn {
+            #gratitude .page .content .content-body .requestBtn {
               display: block;
               letter-spacing: 0;
               width: 100%;
               padding: 0.5vh 1vw; }    
-        #gratitute .page .content .content-body#part1 .changeBlock {
+        #gratitude .page .content .content-body#part1 .changeBlock {
           margin: 4vh; }   
-        #gratitute .page .content .content-body#part2 .changeBlock {
+        #gratitude .page .content .content-body#part2 .changeBlock {
           margin-bottom: 3vh; }        
-        #gratitute .page .content .content-body#part2 .changeBlock #months {
+        #gratitude .page .content .content-body#part2 .changeBlock #months {
           padding: 2vh 0; }
+    #gratitude #thanksPage {
+      display: none; }
+    #gratitude #thanksPage .content {
+      padding: 30vh 5vw; }
+      #gratitude #thanksPage #topCircle {
+        position: absolute;
+        top: 0;
+        width: 100vw; }
+      #gratitude #thanksPage .content #item1 {
+        padding: 0 10vw; }
+      #gratitude #thanksPage .content #item2 {
+        margin-top: 5vh;
+        padding: 0 10vw; }
+      #gratitude #thanksPage img {
+        position: absolute;
+        bottom: 0px; 
+        width: 100vw; }
 }
 
 /*** Dashboard stylesheet

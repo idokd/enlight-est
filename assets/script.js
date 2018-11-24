@@ -2,19 +2,17 @@ $(document).ready(function(){
   /* Intro
   **************************************************/
   if ($("body").data("title") === "introPage") {
-    //  Init Carousel
-    $("#intro .owl-carousel").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: false,
-      animateOut: 'fadeOut',
-      autoplay: true,
-      autoplayTimeout: 5000,
-      autoplayHoverPause: true,
-      responsive: {
-          0: { items: 1 }
-      }
-    });  
+    // Enable carousel swipe left/right
+    $('#introCarousel').carousel().swipeCarousel({
+      // options here
+      sensitivity: 'high'
+    });
+    // Init Google Map
+    var mapProp= {
+      center:new google.maps.LatLng(51.508742,-0.120850),
+      zoom:5,
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
   }
   /* Enlight
   **************************************************/
@@ -161,4 +159,14 @@ $(document).ready(function(){
       $(document).scrollTop(0);
     });
   }
+  /* Gratitude
+  **************************************************/
+ if ($('body').data('title') == 'gratitudePage') {
+  //  Go to thanks Page
+  $('.requestBtn').on('click', function() {
+    $('#mainPage').toggle();
+    $('#thanksPage').toggle();
+  });
+ }
 });
+

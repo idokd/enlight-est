@@ -7,46 +7,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Import Bootstrap 4 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <!-- Import Owl Carousel v2.3.4 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-  
   <!-- Import Custom CSS -->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
 </head>
 <body data-title="introPage">
   <!-- Start Intro section -->
   <section id="intro">
-    <div class="owl-carousel owl-theme">
-      <div class="item" id="intro-part-1">
-        <h2 class="title font-20 text">TU ENERGÍA PUEDE CAMBIAR AL MUNDO, EL SOL ESTÁ DE TU LADO</h2>
-        <a class="shareBtn" id="shareBtn-1" href="#"><img src="assets/images/icons/share.png" alt=""></a>
-        <img class="slider-img" src="assets/images/slides/intro-1.png" alt="">
-      </div>
-      <div class="item" id="intro-part-2">
-        <img class="slider-img" src="assets/images/slides/intro-3.png" alt="">
-        <a class="shareBtn" id="shareBtn-2" href="#"><img src="assets/images/icons/share_white.png" alt=""></a>
-        <div class="bottom-content">
-          <h2 class="font-20 text">¡ADIÓS PAGOS EXCESIVOS!</h2>
-          <h3 class="font-15 text">Ahorra hasta 98% en tu recibo de luz.</h3>
+    <div class="carousel slide carousel-fade" data-ride="carousel" id="introCarousel" data-interval="false">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#introCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#introCarousel" data-slide-to="1"></li>
+        <li data-target="#introCarousel" data-slide-to="2"></li>
+        <li data-target="#introCarousel" data-slide-to="3"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="intro-part-1">
+            <h2 class="title font-20 text">TU ENERGÍA PUEDE CAMBIAR AL MUNDO, EL SOL ESTÁ DE TU LADO</h2>
+            <a class="shareBtn" id="shareBtn-1" href="#"><img src="assets/images/icons/share.png" alt=""></a>
+            <img class="slider-img" src="assets/images/slides/intro-1.png" alt="">
         </div>
-      </div>
-      <div class="item" id="intro-part-3">
-        <div id="map-page"></div>
-        <img class="slider-img" src="assets/images/slides/intro-2.png" alt="">
-        <a class="shareBtn" id="shareBtn-3" href="#"><img src="assets/images/icons/share_white.png" alt=""></a>
-        <div class="bottom-content">
-          <h2 class="font-20 text">¡UNA SOLUCIÓN PERSONALIZADA!</h2>
-          <h3 class="font-15 text">Miles de mexicanos ya disfrutan de un sistema diseñado a su medida.</h3>
+        <div class="carousel-item" id="intro-part-2">
+            <img class="slider-img" src="assets/images/slides/intro-3.png" alt="">
+            <a class="shareBtn" id="shareBtn-2" href="#"><img src="assets/images/icons/share_white.png" alt=""></a>
+            <div class="bottom-content">
+              <h2 class="font-20 text">¡ADIÓS PAGOS EXCESIVOS!</h2>
+              <h3 class="font-15 text">Ahorra hasta 98% en tu recibo de luz.</h3>
+            </div>
         </div>
-      </div>
-      <div class="item" id="intro-part-4">
-        <img class="slider-img" src="assets/images/slides/intro-5.png" alt="">
-        <a class="shareBtn" id="shareBtn-4" href="#"><img src="assets/images/icons/share_white.png" alt=""></a>
-        <div class="bottom-content">
-          <h2 class="font-20 text">¡HAZLO POR EL AHORRO, PRESÚMELO POR EL PLANETA!</h2>
-          <h3 class="font-15 text">Tu nuevo estilo de vida ayudará a construir un futuro más sustentable.</h3>
-          <a href="dashboard.html" id="changeBtn" class="customBtn font-15 text">TU CAMBIO INICIA AHORA</a>
+        <div class="carousel-item" id="intro-part-3">
+          <a class="shareBtn" id="shareBtn-3" href="#"><img src="assets/images/icons/share_white.png" alt=""></a>
+          <div id="googleMap" width="100px" height="400px"></div>
+          <div class="bottom-content">
+            <h2 class="font-20 text">¡UNA SOLUCIÓN PERSONALIZADA!</h2>
+            <h3 class="font-15 text">Miles de mexicanos ya disfrutan de un sistema diseñado a su medida.</h3>
+          </div>
+        </div>
+        <div class="carousel-item" id="intro-part-4">
+          <img class="slider-img" src="assets/images/slides/intro-5.png" alt="">
+          <a class="shareBtn" id="shareBtn-4" href="#"><img src="assets/images/icons/share_white.png" alt=""></a>
+          <div class="bottom-content">
+            <h2 class="font-20 text">¡HAZLO POR EL AHORRO, PRESÚMELO POR EL PLANETA!</h2>
+            <h3 class="font-15 text">Tu nuevo estilo de vida ayudará a construir un futuro más sustentable.</h3>
+            <a href="dashboard.html" id="changeBtn" class="customBtn font-15 text">TU CAMBIO INICIA AHORA</a>
+          </div>
         </div>
       </div>
     </div>
@@ -56,9 +60,10 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <!-- Import Owl Carousel script -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Import Bootstrap carousel slide Plugin -->
+  <script src="assets/plugins/bootstrap-swipe-carousel.min.js"></script>
   <!-- Import Google Map API key -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBewp4aFZ8xMhBOfcgRmcceY9BHxoMWWrI&v=3&language=es"></script>
   <!-- Import Custom Script -->
   <script src="assets/script.js"></script>
 </body>
