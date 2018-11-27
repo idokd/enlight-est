@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166 436.379">
+  <defs>
+    <style>
+      .cls-1, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-3, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ffe660;
+        stroke: #ffe660;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-7 {
+        stroke: #1f7b82;
+      }
+
+      .cls-8, .cls-9 {
+        font-size: 10px;
+      }
+
+      .cls-10, .cls-12, .cls-8 {
+        font-family: SegoeUI-Light, Segoe UI;
+        font-weight: 300;
+      }
+
+      .cls-9 {
+        fill: #fe4e2c;
+      }
+
+      .cls-11, .cls-13, .cls-14, .cls-9 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-10, .cls-11 {
+        font-size: 15px;
+      }
+
+      .cls-12 {
+        font-size: 13px;
+        letter-spacing: 0.05em;
+      }
+
+      .cls-13 {
+        font-size: 40px;
+      }
+
+      .cls-14 {
+        font-size: 20px;
+      }
+
+      .cls-15 {
+        filter: url(#kWh);
+      }
+
+      .cls-16 {
+        filter: url(#_5_304);
+      }
+
+      .cls-17 {
+        filter: url(#Path_1147);
+      }
+
+      .cls-18 {
+        filter: url(#Path_1136);
+      }
+
+      .cls-19 {
+        filter: url(#Path_1131);
+      }
+
+      .cls-20 {
+        filter: url(#Path_1129);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="166" height="436.38"/>
+    </clipPath>
+    <filter id="Path_1129" x="50.703" y="-8.621" width="63.317" height="197.276" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#707070"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1131" x="73.632" y="144.216" width="19.391" height="31.011" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-color="#c58e0f"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-3.511" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4d2c"/>
+      <stop offset="0.345" stop-color="#fc8f32"/>
+      <stop offset="0.616" stop-color="#f8e55d"/>
+      <stop offset="1" stop-color="#fff4ba"/>
+    </linearGradient>
+    <filter id="Path_1136" x="73.539" y="109.618" width="18.346" height="33.499" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-color="#707070"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0" xlink:href="#linear-gradient"/>
+    <filter id="Path_1147" x="73.539" y="3.793" width="19.148" height="139.243" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-color="#fe4d2c"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_5_304" x="2" y="374.379" width="114" height="71" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-color="#ffe660"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="kWh" x="110" y="389.379" width="58" height="45" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-color="#ffe660"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Repeat_Grid_12" data-name="Repeat Grid 12" class="cls-2" transform="translate(0 0)">
+    <g id="Group_3528" data-name="Group 3528" transform="translate(-105 -87.62)">
+      <g id="Group_3063" data-name="Group 3063" transform="translate(99.437 -43)">
+        <g id="Group_2988" data-name="Group 2988" transform="translate(65.267 131)">
+          <g class="cls-20" transform="matrix(1, 0, 0, 1, -59.7, -0.38)">
+            <path id="Path_1129-2" data-name="Path 1129" class="cls-3" d="M10.978,137.672V11.163S10.337.741,23.325.5C35.11.5,35.911,11.163,35.911,11.163V139.195a19.426,19.426,0,0,1,9.781,17.637c-.241,12.667-8.578,18.2-8.578,18.2s-3.928,5.532-16.435,4.65a21.442,21.442,0,0,1-18.2-12.507c-.241-.561-.4-.962-.4-.962S-2.41,154.988,3.2,145.769a16.39,16.39,0,0,1,2-2.646C9.455,138.554,10.978,137.672,10.978,137.672Z" transform="translate(59.32 -0.12)"/>
+          </g>
+          <g class="cls-19" transform="matrix(1, 0, 0, 1, -59.7, -0.38)">
+            <path id="Path_1131-2" data-name="Path 1131" class="cls-4" d="M29.615,185.6,22.4,193.617l5.692,4.57-1.6,9.3,7.857-8.418-5.933-5.131Z" transform="translate(54.96 -36.83)"/>
+          </g>
+          <g id="Group_2991" data-name="Group 2991" transform="translate(16.835 112.239)">
+            <g class="cls-18" transform="matrix(1, 0, 0, 1, -76.54, -112.62)">
+              <path id="Path_1136-2" data-name="Path 1136" class="cls-5" d="M12.746,0V21.325A6.176,6.176,0,0,1,6.573,27.5h0A6.176,6.176,0,0,1,.4,21.325V.08" transform="translate(76.14 112.62)"/>
+            </g>
+          </g>
+          <g class="cls-17" transform="matrix(1, 0, 0, 1, -59.7, -0.38)">
+            <path id="Path_1147-2" data-name="Path 1147" class="cls-6" d="M7.074,133.743h0A6.6,6.6,0,0,1,.5,127.169V7.074A6.6,6.6,0,0,1,7.074.5h0a6.6,6.6,0,0,1,6.574,6.574V127.25A6.587,6.587,0,0,1,7.074,133.743Z" transform="translate(76.04 6.29)"/>
+          </g>
+        </g>
+        <line id="Line_488" data-name="Line 488" class="cls-7" x2="19.241" transform="translate(81.701 197.141)"/>
+        <text id="Límite_DAC" data-name="Límite DAC" class="cls-8" transform="translate(105.347 186.921)"><tspan x="3.27" y="11">Límite </tspan><tspan x="6.329" y="23">DAC</tspan></text>
+        <text id="Tu_consumo" data-name="Tu consumo" class="cls-9" transform="translate(133 141.62)"><tspan x="-27.075" y="0">Tu consumo</tspan></text>
+      </g>
+      <text id="Tu_consumo_supera_el_límite_subsidiado" data-name="Tu consumo 
+supera el límite subsidiado" class="cls-10" transform="translate(188 321)"><tspan x="-39.814" y="0">Tu consumo </tspan><tspan x="-82.8" y="20">supera el límite subsidiado</tspan></text>
+      <text id="Acumulado_anual" data-name="Acumulado anual" class="cls-11" transform="translate(188 299)"><tspan x="-57.686" y="0">Acumulado anual</tspan></text>
+      <text id="CONSUMO" class="cls-12" transform="translate(188 465)"><tspan x="-33.219" y="0">CONSUMO</tspan></text>
+      <g id="Group_3267" data-name="Group 3267" transform="translate(15 -121)">
+        <g class="cls-16" transform="matrix(1, 0, 0, 1, 90, 208.62)">
+          <text id="_5_304-2" data-name="5,304" class="cls-13" transform="translate(59 426.38)"><tspan x="-47.461" y="0">5,304</tspan></text>
+        </g>
+        <g class="cls-15" transform="matrix(1, 0, 0, 1, 90, 208.62)">
+          <text id="kWh-2" data-name="kWh" class="cls-14" transform="translate(139 420.38)"><tspan x="-19.971" y="0">kWh</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 346.508 357.572">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.73;
+      }
+
+      .cls-2 {
+        stroke: #00ffd2;
+      }
+
+      .cls-3 {
+        fill: #42d5ba;
+        font-size: 10px;
+      }
+
+      .cls-3, .cls-7, .cls-9 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-10, .cls-4, .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #707070;
+      }
+
+      .cls-10, .cls-4 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-5 {
+        fill: #00d5bc;
+      }
+
+      .cls-7, .cls-9 {
+        fill: #3a444e;
+      }
+
+      .cls-7 {
+        font-size: 8px;
+      }
+
+      .cls-8 {
+        stroke: #5c5d5e;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-9 {
+        font-size: 12px;
+      }
+
+      .cls-10 {
+        stroke: #fff;
+      }
+
+      .cls-11 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        filter: url(#Path_1508);
+      }
+
+      .cls-13 {
+        filter: url(#Path_1509);
+      }
+    </style>
+    <filter id="Path_1509" x="0" y="0" width="346.508" height="357.572" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1508" x="18.444" y="17.913" width="310.407" height="243.7" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2911" data-name="Group 2911" transform="translate(-58.551 -668.616)">
+    <g class="cls-13" transform="matrix(1, 0, 0, 1, 58.55, 668.62)">
+      <path id="Path_1509-2" data-name="Path 1509" class="cls-1" d="M9.943,0H318.565c5.491,0,9.943,3.142,9.943,7.018V332.554c0,3.876-4.452,7.018-9.943,7.018H9.943C4.451,339.572,0,336.43,0,332.554V7.018C0,3.142,4.451,0,9.943,0Z" transform="translate(9 9)"/>
+    </g>
+    <g class="cls-12" transform="matrix(1, 0, 0, 1, 58.55, 668.62)">
+      <path id="Path_1508-2" data-name="Path 1508" class="cls-1" d="M8.85,0H283.557c4.888,0,8.85,2.088,8.85,4.664V221.036c0,2.576-3.962,4.664-8.85,4.664H8.85c-4.888,0-8.85-2.088-8.85-4.664V4.664C0,2.088,3.962,0,8.85,0Z" transform="translate(27.44 26.91)"/>
+    </g>
+    <g id="Group_3165" data-name="Group 3165" transform="translate(59.995 867.847)">
+      <g id="Rectangle_2426" data-name="Rectangle 2426" class="cls-2" transform="translate(26 74)">
+        <rect class="cls-11" width="292.407" height="56.682" rx="5"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="291.407" height="55.682" rx="4.5"/>
+      </g>
+      <text id="Bajar_de_tarifa_de_la_forma_más_económica." data-name="Bajar de tarifa de la forma más económica." class="cls-3" transform="translate(68.965 115.289)"><tspan x="0" y="0">Bajar de tarifa de la forma más económica.</tspan></text>
+      <g id="Group_3139" data-name="Group 3139" transform="translate(44.894 104.59)">
+        <g id="Ellipse_407" data-name="Ellipse 407" class="cls-4" transform="translate(0 0)">
+          <circle class="cls-11" cx="7.198" cy="7.198" r="7.198"/>
+          <circle class="cls-6" cx="7.198" cy="7.198" r="6.948"/>
+        </g>
+        <g id="Yes" transform="translate(2.016 0)">
+          <path id="Checkbox" class="cls-5" d="M5.977,10.278,1,5.3,2.181,4.121l3.8,3.711L12.809,1,13.99,2.181Z" transform="translate(-1 0.687)"/>
+          <rect id="Rectangle_556" data-name="Rectangle 556" class="cls-6" width="13.496" height="13.496" transform="translate(0 0)"/>
+        </g>
+      </g>
+      <text id="TU_OBJETIVO" data-name="TU OBJETIVO" class="cls-7" transform="translate(44.894 93.496)"><tspan x="0" y="0">TU OBJETIVO</tspan></text>
+      <g id="Group_3143" data-name="Group 3143" transform="translate(296.379 91.612)">
+        <path id="Path_1220" data-name="Path 1220" class="cls-8" d="M5.267,0,0,5.462l5.267,5.071" transform="translate(0 21.461) rotate(-90)"/>
+        <path id="Path_1222" data-name="Path 1222" class="cls-8" d="M5.267,0,0,5.462l5.267,5.071" transform="translate(10.533 0) rotate(90)"/>
+      </g>
+    </g>
+    <g id="Group_3458" data-name="Group 3458" transform="translate(44.402 539.631)">
+      <g id="Ellipse_407-2" data-name="Ellipse 407" class="cls-4" transform="translate(56 180)">
+        <circle class="cls-11" cx="8" cy="8" r="8"/>
+        <circle class="cls-6" cx="8" cy="8" r="7.75"/>
+      </g>
+      <text id="Bajar_de_tarifa_en_2_bimestres." data-name="Bajar de tarifa en 2 bimestres." class="cls-9" transform="translate(82.754 193)"><tspan x="0" y="0">Bajar de tarifa en 2 bimestres.</tspan></text>
+      <g id="Ellipse_407-3" data-name="Ellipse 407" class="cls-4" transform="translate(56 233)">
+        <circle class="cls-11" cx="8" cy="8" r="8"/>
+        <circle class="cls-6" cx="8" cy="8" r="7.75"/>
+      </g>
+      <text id="Pagar_lo_mínimo_posible_a_CFE_46_bimestre_" data-name="Pagar lo mínimo posible a CFE ($46/bimestre)" class="cls-9" transform="translate(82.754 246)"><tspan x="0" y="0">Pagar lo mínimo posible a CFE ($46/bimestre)</tspan></text>
+      <line id="Line_494" data-name="Line 494" class="cls-10" x2="285" transform="translate(45.5 216.5)"/>
+      <g id="Ellipse_407-4" data-name="Ellipse 407" class="cls-4" transform="translate(56 282)">
+        <circle class="cls-11" cx="8" cy="8" r="8"/>
+        <circle class="cls-6" cx="8" cy="8" r="7.75"/>
+      </g>
+      <text id="Cubrir_el_100_de_tu_consumo_de_energía" data-name="Cubrir el 100% de tu consumo de energía" class="cls-9" transform="translate(82.754 295)"><tspan x="0" y="0">Cubrir el 100% de tu consumo de energía</tspan></text>
+      <g id="Ellipse_407-5" data-name="Ellipse 407" class="cls-4" transform="translate(56 338)">
+        <circle class="cls-11" cx="8" cy="8" r="8"/>
+        <circle class="cls-6" cx="8" cy="8" r="7.75"/>
+      </g>
+      <text id="Cubrir_un_porcentaje_adicional" data-name="Cubrir un porcentaje adicional" class="cls-9" transform="translate(82.754 351)"><tspan x="0" y="0">Cubrir un porcentaje adicional</tspan></text>
+      <line id="Line_494-2" data-name="Line 494" class="cls-10" x2="285" transform="translate(45.5 317.5)"/>
+      <line id="Line_607" data-name="Line 607" class="cls-10" x2="285" transform="translate(45.5 265.5)"/>
+    </g>
+  </g>
+</svg>

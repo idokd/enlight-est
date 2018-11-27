@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256.5 144.456">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #ddd;
+      }
+
+      .cls-10, .cls-4, .cls-9 {
+        fill: #707070;
+      }
+
+      .cls-4 {
+        font-size: 11px;
+      }
+
+      .cls-4, .cls-9 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-5, .cls-6 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6 {
+        opacity: 0.3;
+      }
+
+      .cls-7 {
+        stroke: #707070;
+        stroke-miterlimit: 10;
+        stroke-width: 0.963px;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-9 {
+        font-size: 10px;
+      }
+
+      .cls-10 {
+        font-family: SegoeUI-Light, Segoe UI;
+        font-weight: 300;
+      }
+
+      .cls-11 {
+        filter: url(#Path_1515);
+      }
+
+      .cls-12 {
+        filter: url(#Line_373);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="247.854" height="112.238"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4d2c"/>
+      <stop offset="0.345" stop-color="#fc8f32"/>
+      <stop offset="0.616" stop-color="#f8e55d"/>
+      <stop offset="1" stop-color="#fff4ba"/>
+    </linearGradient>
+    <filter id="Line_373" x="20.279" y="125.493" width="236.221" height="18.963" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1515" x="89" y="0" width="73.651" height="63.298" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2713" data-name="Group 2713" transform="translate(-224.701 -355.216)">
+    <g id="Group_2689" data-name="Group 2689" transform="translate(224.702 364)">
+      <g id="Repeat_Grid_2" data-name="Repeat Grid 2" class="cls-2" transform="translate(0 8.27)">
+        <g transform="translate(-199.702 -615.231)">
+          <path id="Path_1218" data-name="Path 1218" class="cls-3" d="M0,.208l94.231-.1L201.867,0" transform="translate(250.202 621.202)"/>
+          <text id="_800_kWh" data-name="800 kWh" class="cls-4" transform="translate(244.702 625.231)"><tspan x="-42.77" y="0">800 kWh</tspan></text>
+        </g>
+        <g transform="translate(-199.702 -585.231)">
+          <path id="Path_1218-2" data-name="Path 1218" class="cls-3" d="M0,.208l94.231-.1L201.867,0" transform="translate(250.202 621.202)"/>
+          <text id="_600_kWh" data-name="600 kWh" class="cls-4" transform="translate(244.702 625.231)"><tspan x="-42.77" y="0">600 kWh</tspan></text>
+        </g>
+        <g transform="translate(-199.702 -555.231)">
+          <path id="Path_1218-3" data-name="Path 1218" class="cls-3" d="M0,.208l94.231-.1L201.867,0" transform="translate(250.202 621.202)"/>
+          <text id="_400_kWh" data-name="400 kWh" class="cls-4" transform="translate(244.702 625.231)"><tspan x="-42.77" y="0">400 kWh</tspan></text>
+        </g>
+        <g transform="translate(-199.702 -525.231)">
+          <path id="Path_1218-4" data-name="Path 1218" class="cls-3" d="M0,.208l94.231-.1L201.867,0" transform="translate(250.202 621.202)"/>
+          <text id="_200_kWh" data-name="200 kWh" class="cls-4" transform="translate(244.702 625.231)"><tspan x="-42.77" y="0">200 kWh</tspan></text>
+        </g>
+      </g>
+      <path id="Rectangle_2413" data-name="Rectangle 2413" class="cls-5" d="M5,0h5.316a6,6,0,0,1,6,6V122.78a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(54.325 0.219)"/>
+      <path id="Rectangle_2414" data-name="Rectangle 2414" class="cls-5" d="M5,0h5.316a6,6,0,0,1,6,6V115.469a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(86.329 7.531)"/>
+      <path id="Rectangle_2415" data-name="Rectangle 2415" class="cls-6" d="M5,0h5.316a6,6,0,0,1,6,6V123a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(117.707 0)"/>
+      <path id="Rectangle_2416" data-name="Rectangle 2416" class="cls-5" d="M5,0h5.316a6,6,0,0,1,6,6V115.469a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(151.594 7.531)"/>
+      <path id="Rectangle_2417" data-name="Rectangle 2417" class="cls-5" d="M5,0h5.316a6,6,0,0,1,6,6V115.469a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(151.594 7.531)"/>
+      <path id="Rectangle_2418" data-name="Rectangle 2418" class="cls-5" d="M5,0h5.316a6,6,0,0,1,6,6V115.071a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(185.482 7.928)"/>
+      <path id="Rectangle_2419" data-name="Rectangle 2419" class="cls-5" d="M5,0h5.316a6,6,0,0,1,6,6V130.8a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(220.625 -7.801)"/>
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, 0, -8.78)">
+        <line id="Line_373-2" data-name="Line 373" class="cls-7" x2="218.22" transform="translate(29.28 131.97)"/>
+      </g>
+    </g>
+    <g id="Group_3507" data-name="Group 3507" transform="translate(-7)">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, 231.7, 355.22)">
+        <path id="Path_1515-2" data-name="Path 1515" class="cls-8" d="M0,0H55.652V45.3H0Z" transform="translate(98 6)"/>
+      </g>
+      <text id="Mar-Abr" class="cls-9" transform="translate(357.974 378.45)"><tspan x="-18.674" y="0">Mar-Abr</tspan></text>
+      <text id="_4_101" data-name="$4,101" class="cls-10" transform="translate(357.974 396.275)"><tspan x="-12.48" y="0">$4,101</tspan></text>
+    </g>
+  </g>
+</svg>

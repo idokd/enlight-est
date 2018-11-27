@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Solution</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Import Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Import Custom CSS -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+</head>
+<body data-title="solutionPage">
+  <!-- Start Solution Section -->
+  <section id="solution">
+    <div class="header">
+      <div><a href="situation.html"><img src="assets/images/icons/arrow-up.png" alt=""></a></div>
+      <div class="text-center"><label class="text">MI SOLUCIÓN</label></div>
+    </div>
+    <div class="body">
+      <div class="page">
+        <div class="bimonthly">
+          <a id="monthlySBtn"><object data="assets/images/effects/solution_s1.svg" type="image/svg+xml" id="smallDocument"></object></a>
+          <a id="monthlyMBtn"><object data="assets/images/effects/solution_s2.svg" type="image/svg+xml" id="mediumDocument"></object></a>
+          <a id="monthlyBBtn"><object data="assets/images/effects/solution_s3.svg" type="image/svg+xml" id="bigDocument"></object></a>
+          <div>
+            <a href="enlight.html" id="infoBtn">¡Así será tu recibo cuando bajes de tarifa!<img src="assets/images/icons/info.png"></img></a>
+          </div>  
+        </div>
+        <div class="anual">
+          <div class="carousel slide carousel-fade" data-role="carousel" id="anualCarousel" data-interval="false">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#anualCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#anualCarousel" data-slide-to="1"></li>
+            </ul>
+            <dvi class="carousel-inner">
+              <div class="carousel-item active">
+                <object type="image/svg+xml" data="assets/images/effects/solution_temp.svg" id="tempChart">Your browser does not support SVG</object>
+                <div class="font-regular font-15 text">Bajarás de tarifa en 3 bimestres</div>
+                <div class="font-15 text">si mantienes tus consumos actuales.<a class="showPopupBtn" data-target="#popup2"><img src="assets/images/icons/play.png" alt=""></a></div>
+              </div>
+              <div class="carousel-item">
+                <object type="image/svg+xml" data="assets/images/effects/solution_bar.svg" id="barChart">Your browser does not support SVG</object>
+                <div class="font-15 font-regular text">Bimestre a bimestre</div>
+                <div class="font-15 text">tu sistema mantendrá tu consumo de la red en el rango subsidiado.</div>
+              </div>
+            </dvi>
+          </div>
+        </div>
+        <div class="anos10">
+          <img src="assets/images/effects/graph.png" alt="" id="graphImg">
+          <img src="assets/images/effects/dashboard_3.png" alt="" id="dashboardImg">
+          <div class="font-regular font-15 text pl-5 pr-5">Con Enlight, tu recibo no volverá a ser una sorpresa.<a class="showPopupBtn" data-target="#popup3"><img src="assets/images/icons/play.png" alt=""></a></div>
+        </div>
+        <div class="anos25">
+          <object data="assets/images/logos/power_people.svg" type="" id="boxImg"></object>
+          <div class="font-regular font-15 text">AHORRO TOTAL:</div>
+          <div class="font-45 text pl-5 pr-5 color-teal">¡$678,300!</div>
+          <div class="font-regular font-15 text">¿Tú qué harás con ese dinero?</div>
+        </div>
+      </div>
+      <div class="setting">
+        <a href="#" id="saveBtn"><img src="assets/images/icons/circle_confirm.png" alt=""></a>
+        <object type="image/svg+xml" data="assets/images/effects/solution_setting.svg" id="svg-object">Your browser does not support SVG</object>
+      </div>
+      <div class="carousel slide carousel-fade" data-ride="carousel" id="settingCarousel" data-interval="false">
+        <!-- Indicators -->
+        <ul class="carousel-icon-indicators">
+          <li data-target="#settingCarousel" data-slide-to="0"><img src="assets/images/icons/environmental.png" alt=""></li>
+          <li data-target="#settingCarousel" data-slide-to="1" class="active"><img src="assets/images/icons/spending.png" alt=""></li>
+          <li data-target="#settingCarousel" data-slide-to="2"><img src="assets/images/icons/energy.png" alt=""></li>
+        </ul>
+        <ul class="carousel-indicators">
+          <li data-target="#settingCarousel" data-slide-to="0"></li>
+          <li data-target="#settingCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#settingCarousel" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="spending">
+            <div class="smallContent font-10 text">NUEVO GASTO EN LUZ</div>
+            <div class="bigContent font-30 font-regular text">$340</div>
+            <div class="font-15 font-regular text color-teal savingContent">Ahorro: 93%</div>
+          </div>
+          <div class="carousel-item" id="consumption">
+            <div class="smallContent font-10 text">GENERACIÓN</div>
+            <div class="bigContent font-30 font-regular text">574<label class="font-20 text">kWh</div>
+          </div>
+          <div class="carousel-item" id="environmental">
+            <div class="smallContent font-10 text">APORTACIÓN AMBINETAL</div>
+            <div class="bigContent font-15 font-regular text mt-3">Equivalente a sembrar 9 árboles</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="logo">
+        <a href="enlight.html" class="customBtn" id="downBtn"><img src="assets/images/icons/arrow-up.png" alt=""></a> 
+        <label class="font-8 text" for="">CON TU SISTEMA</label>
+        <img src="assets/images/logos/logo_enlight.png" alt="">
+        <a class="customBtn showPopupBtn" data-target="#solution_setting" id="solutionBtn"><img src="assets/images/icons/panel_solar.png" alt=""></a>
+      </div>     
+      <div class="center">
+        <img src="assets/images/icons/circle_minus_disable.png" alt="" id="minusBtn">
+        <label class="font-25 font-regular text" id="cardsCnt">7</label>
+        <img src="assets/images/icons/cards.png" alt="" id="cards">
+        <img src="assets/images/icons/circle_plus.png" alt="" id="plusBtn">
+      </div>
+      <div class="bottom">
+        <div class="left">
+          <label class="font-regular font-10 text" id="consumption_label">CONSUMO CUBIERTO: </label>
+          <label class="font-regular font-20 text" id="consumption_value">65%</label>
+        </div>
+        <div class="right">
+          <label class="font-regular font-10 text" id="price_label">PRECIO: </label>
+          <label class="font-regular font-20 text" id="price_value">$104,526</label>
+          <a href="payment.html" class="" id="nextBtn"><img src="assets/images/icons/arrow_right_teal.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section> <!-- End Solution Section -->
+  <!-- Start Tutorial Section -->
+  <section id="solution_tutorial">
+    <div class="page" id="page1">
+      <span class="transparent-background"></span>
+      <div class="content">
+        <div class="header">
+          <div class="font-regular font-15 text">MI SITUACIÓN</div>
+          <img src="assets/images/logos/logo_enlight.png" alt="">
+        </div>
+        <div class="image">
+          <img src="assets/images/effects/solution.png" alt="">
+        </div>
+        <div class="font-regular font-15 text" id="subtext">¡Ahorrar es tan fácil como tomar el sol!</div>
+        <a class="font-15 showPopupDelayBtn" data-target="#page2" data-root="#page1" id="continueBtn">DESCUBRE CUÁNTO PUEDES AHORRAR</a>
+      </div>
+    </div>
+    <div class="page" id="page2">
+      <span class="transparent-background"></span>
+      <div class="content">
+        <div class="font-regular font-20 text" id="description">Diseñamos tu sistema a la medida de tus necesidades. La opción más adecuada para ti es un sistema con 7 paneles solares para que bajes de tarifa.</div>
+        <div id="content_bottom">
+          <div class="font-regular font-20 text">7</div>
+          <img src="assets/images/icons/cards.png" alt="">
+        </div>
+      </div>
+      <a class="font-15 showPopupDelayBtn screenBtn" data-target="#page3" data-root="#page2"></a>
+    </div>
+    <div class="page" id="page3">
+      <span class="transparent-background"></span>
+      <div class="content">
+        <div class="font-regular font-20 text" id="description">Con este sistema, bimestralmente sólo pagarás:</div>
+        <div id="content_bottom">
+          <div class="font-regular font-30 text bigcontent">$340</div>
+          <div class="font-regular font-15 text smallContent color-teal">Ahorro: 93%</div>
+        </div>
+      </div>
+      <a class="font-15 showPopupDelayBtn screenBtn" data-target="#page4" data-root="#page3"></a>
+    </div>
+    <div class="page" id="page4">
+      <span class="transparent-background"></span>
+      <div class="content">
+        <div class="font-regular font-20 text" id="description">¡Tú decides!<br><br>Puedes modificar el tamaño de tu sistema para pagar menos en tu recibo o aumentar tus consumos con tranquilidad</div>
+        <div id="content_bottom">
+          <img src="assets/images/icons/circle_minus_disable.png" alt="">
+          <div class="font-regular font-25 text">7</div>
+          <img src="assets/images/icons/cards.png" alt="">
+          <img src="assets/images/icons/circle_plus.png" alt="">
+        </div>
+      </div>
+      <a class="font-15 showPopupDelayBtn screenBtn" data-target="#page5" data-root="#page4"></a>
+    </div>
+    <div class="page" id="page5">
+      <span class="transparent-background"></span>
+      <div class="content">
+        <div class="font-regular font-20 text" id="description">…o puedes elegir directamente qué objetivo persigues.</div>
+        <div id="content_bottom">
+          <object data="assets/images/effects/solution_t5.svg" type="image/svg+xml"></object>
+          <a class="customBtn" id="solutionBtn1"><img src="assets/images/icons/panel_solar.png" alt=""></a>
+        </div>
+      </div>
+      <a class="font-15 showPopupDelayBtn screenBtn" data-target="#page6" data-root="#page5"></a>
+    </div>
+    <div class="page" id="page6">
+      <span class="transparent-background"></span>
+      <div class="content">
+        <div class="font-regular font-20 text" id="description">Una vez que decidas qué opción te conviene, haz clic aquí para que quede registrada.</div>
+        <div id="content_bottom">
+          <img src="assets/images/icons/circle_white_confirm.png" alt="">
+        </div>
+      </div>
+      <a class="font-15 showPopupDelayBtn screenBtn" data-target="#solution" data-root="#page6"></a>
+    </div>
+  </section> <!-- End Tutorial Section -->
+  <!-- Start Popup Section -->
+  <section id="popup">
+    <div class="page" id="popup1">
+      <img src="assets/images/effects/cfe_document.png" alt="" id="documentImg">
+      <div class="footer">
+        <a class="hidePopupBtn" data-target="#popup1"><img src="assets/images/icons/cancel.png" alt=""></a>
+      </div>
+    </div>
+    <div class="page" id="popup2">
+      <div class="font-22 text">ANIMACIÓN GENÉRICA</div>
+      <div class="font-22 text mt-5">“¿Cómo bajaré de tarifa?”</div>
+      <div class="footer">
+        <a class="hidePopupBtn" data-target="#popup2"><img src="assets/images/icons/cancel.png" alt=""></a>
+      </div>
+    </div>
+    <div class="page" id="popup3">
+      <div class="font-22 text">ANIMACIÓN GENÉRICA</div>
+      <div class="font-22 text mt-5">“Aumento continuo de los recibos DAC”</div>
+      <div class="footer">
+        <a class="hidePopupBtn" data-target="#popup3"><img src="assets/images/icons/cancel.png" alt=""></a>
+      </div>
+    </div>
+    <div id="solution_setting">
+      <div class="container">
+        <div class="header">
+          <img id="left_logo" src="assets/images/logos/mi_sistema.png" alt="">
+          <img id="right_logo" src="assets/images/logos/logo_enlight.png" alt="">
+        </div>
+        <div class="content">
+          <div class="content-top">
+            <div id="item1">
+              <div class="number">
+                <div class="font-regular font-40 text color-yellow" id="panel_number">7</div>
+                <label for="" class="font-10 text" id="panel_label">paneles de 330 Wp</label>
+              </div>
+              <div class="plus">
+                <div class="font-20 font-regular text">+</div>
+              </div>
+              <div class="number">
+                <div class="font-regular font-40 text" id="opt_number">7</div>
+                <label for="" class="font-10 text" id="opt_label">optimizadores</label>
+              </div>
+              <div class="plus">
+                <div class="font-20 font-regular text">+</div>
+              </div>
+              <div class="number">
+                <div class="font-regular font-40 text" id="inverter_number">1</div>
+                <label for="" class="font-10 text" id="inverter_label">inversor central</label>
+              </div>
+            </div>
+            <div id="item2" class="row">
+              <div class="col-6" id="total_power">
+                <div class="font-10 text item_label">Potencia total:</div>
+                <div class="font-12 text item_number" id="power_num">2.31</div>
+                <div class="font-10 text item_unit">kWp</div>
+              </div>
+              <div class="col-6" id="roof_space">
+                <div class="font-10 text item_label">Espacio en azotea:</div>
+                <div class="font-12 text item_number" id="roof_space_num">21</div>
+                <div class="font-10 text item_unit">&#13217;</div>
+              </div>
+            </div>
+            <div id="item3" class="row">
+              <div class="col-6">
+                <div class="font-regular font-10 text" id="consumption_label1">CONSUMO CUBIERTO: </div>
+                <div class="font-regular font-20 text" id="consumption_value1">65%</div>
+              </div>
+              <div class="col-6">
+                <div class="font-regular font-10 text" id="price_label1">PRECIO: </div>
+                <div class="font-regular font-20 text" id="price_value1">$104,526</div>
+              </div>
+            </div>
+          </div>
+          <div class="content-objective">
+            <div class="font-regular font-10 text">TU OBJETIVO</div>
+            <div class="button">
+              <label for="" class="color-teal font-12 text customRadioBtn" id="objective_radio">
+                <input type="radio" checked>
+                <span class="checkmark"></span>
+                Bajar de tarifa de la forma más económica.
+              </label>
+            </div>
+            <a class="showPopup" data-target="#object_setting" data-root="#solution_setting"><img src="assets/images/icons/up_down.png" alt="" id="upDownBtn"></a>
+          </div>
+          <div class="content-consumption">
+            <div class="font-regular font-10 text">TU CONSUMO DE DISEÑO</div>
+            <div class="font-15 text" id="value">5,304 kWh</div>
+            <div class="font-12 font-regular text color-teal" id="value1">= tu consumo anual actual.</div>
+            <a href="characteristic.html"><img src="assets/images/icons/pen.png" alt="" id="penBtn"></a>
+          </div>
+          <div class="content-footer">
+            <div class="font-regular font-12 text">Ajusta el tamaño de tu sistema:</div>
+            <div class="center">
+              <img src="assets/images/icons/circle_minus_disable.png" alt="" id="minusBtn1">
+              <label class="font-25 font-regular text" id="cardsCnt1">7</label>
+              <img src="assets/images/icons/cards.png" alt="" id="cards1">
+              <img src="assets/images/icons/circle_plus.png" alt="" id="plusBtn1">
+            </div>
+            <div>
+              <a class="hidePopupBtn" data-target="#solution_setting"><img src="assets/images/icons/cancel.png" alt=""></a>
+            </div>
+            <div>
+              <a href="" class="font-10 font-regular text" id="systemBtn">¿Cómo funciona un sistema solar Enlight?<img src="assets/images/icons/info.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="object_setting">
+      <div class="container">
+          <div class="header">
+            <img id="left_logo" src="assets/images/logos/mi_sistema.png" alt="">
+            <img id="right_logo" src="assets/images/logos/logo_enlight.png" alt="">
+          </div>
+          <div class="content">
+            <label class="font-regular font-12">TU OBJETIVO</label>
+            <div class="item">
+              <div class="item-content active">
+                <label class="color-teal font-12 text customRadioBtn" data-select="7">
+                  <input type="radio" name="radio" checked>
+                  <span class="checkmark"></span>
+                  Bajar de tarifa de la forma más económica.
+                </label>
+                <div>
+                  <img src="assets/images/icons/cards.png" alt="">
+                  <div class="font-regular font-12 text">7 paneles</div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-content">
+                <label class="color-teal font-12 text customRadioBtn" data-select="9">
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                  Bajar de tarifa en 2 bimestres.
+                </label>
+                <div>
+                  <img src="assets/images/icons/cards.png" alt="">
+                  <div class="font-regular font-12 text">9 paneles</div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-content">
+                <label class="color-teal font-12 text customRadioBtn" data-select="11">
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                  Pagar lo mínimo posible a CFE ($46/bimestre)
+                </label>
+                <div>
+                  <img src="assets/images/icons/cards.png" alt="">
+                  <div class="font-regular font-12 text">11 paneles</div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-content">
+                <label class="color-teal font-12 text customRadioBtn" data-select="11">
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                  Cubrir el 100% de tu consumo de energía
+                </label>
+                <div>
+                  <img src="assets/images/icons/cards.png" alt="">
+                  <div class="font-regular font-12 text">11 paneles</div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-content">
+                <label class="color-teal font-12 text customRadioBtn" data-select="12">
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                  Cubrir un porcentaje adicional
+                </label>
+                <div>
+                  <img src="assets/images/icons/cards.png" alt="">
+                  <div class="font-regular font-12 text">12 o más páneles</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="showPopup" id="hideBtn" data-root="#object_setting" data-target="#solution_setting"><img src="assets/images/icons/arrow-up.png" alt=""></a>
+        </div>
+    </div>
+  </section>
+  <!-- End Popup Section -->
+  <!-- Import jQuery and Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <!-- Import Bootstrap carousel slide Plugin -->
+   <script src="assets/plugins/bootstrap-swipe-carousel.min.js"></script>
+  <!-- Import Custom Script -->
+  <script src="assets/script.js"></script>
+</body>
+</html>

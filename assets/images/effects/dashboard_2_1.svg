@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 116.348 197.276">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ffe660;
+        stroke: #ffe660;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #1f7b82;
+      }
+
+      .cls-6 {
+        fill: #1f7b82;
+        font-family: SegoeUI-Light, Segoe UI;
+        font-weight: 300;
+      }
+
+      .cls-6, .cls-7 {
+        font-size: 10px;
+      }
+
+      .cls-7 {
+        fill: #fe4e2c;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-8 {
+        filter: url(#Path_1147);
+      }
+
+      .cls-9 {
+        filter: url(#Path_1136);
+      }
+
+      .cls-10 {
+        filter: url(#Path_1131);
+      }
+
+      .cls-11 {
+        filter: url(#Path_1129);
+      }
+    </style>
+    <filter id="Path_1129" x="35.267" y="0" width="63.317" height="197.276" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#707070"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1131" x="58.195" y="152.837" width="19.391" height="31.011" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-color="#c58e0f"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-3.511" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4d2c"/>
+      <stop offset="0.345" stop-color="#fc8f32"/>
+      <stop offset="0.616" stop-color="#f8e55d"/>
+      <stop offset="1" stop-color="#fff4ba"/>
+    </linearGradient>
+    <filter id="Path_1136" x="58.102" y="118.239" width="18.346" height="33.499" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-color="#707070"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0" xlink:href="#linear-gradient"/>
+    <filter id="Path_1147" x="58.103" y="12.414" width="19.148" height="139.243" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-color="#fe4d2c"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3063" data-name="Group 3063" transform="translate(-21 -122)">
+    <g id="Group_2988" data-name="Group 2988" transform="translate(65.267 131)">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, -44.27, -9)">
+        <path id="Path_1129-2" data-name="Path 1129" class="cls-1" d="M10.978,137.672V11.163S10.337.741,23.325.5C35.11.5,35.911,11.163,35.911,11.163V139.195a19.426,19.426,0,0,1,9.781,17.637c-.241,12.667-8.578,18.2-8.578,18.2s-3.928,5.532-16.435,4.65a21.442,21.442,0,0,1-18.2-12.507c-.241-.561-.4-.962-.4-.962S-2.41,154.988,3.2,145.769a16.39,16.39,0,0,1,2-2.646C9.455,138.554,10.978,137.672,10.978,137.672Z" transform="translate(43.89 8.5)"/>
+      </g>
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, -44.27, -9)">
+        <path id="Path_1131-2" data-name="Path 1131" class="cls-2" d="M29.615,185.6,22.4,193.617l5.692,4.57-1.6,9.3,7.857-8.418-5.933-5.131Z" transform="translate(39.52 -28.2)"/>
+      </g>
+      <g id="Group_2991" data-name="Group 2991" transform="translate(16.835 112.239)">
+        <g class="cls-9" transform="matrix(1, 0, 0, 1, -61.1, -121.24)">
+          <path id="Path_1136-2" data-name="Path 1136" class="cls-3" d="M12.746,0V21.325A6.176,6.176,0,0,1,6.573,27.5h0A6.176,6.176,0,0,1,.4,21.325V.08" transform="translate(60.7 121.24)"/>
+        </g>
+      </g>
+      <g class="cls-8" transform="matrix(1, 0, 0, 1, -44.27, -9)">
+        <path id="Path_1147-2" data-name="Path 1147" class="cls-4" d="M7.074,133.743h0A6.6,6.6,0,0,1,.5,127.169V7.074A6.6,6.6,0,0,1,7.074.5h0a6.6,6.6,0,0,1,6.574,6.574V127.25A6.587,6.587,0,0,1,7.074,133.743Z" transform="translate(60.6 14.91)"/>
+      </g>
+    </g>
+    <line id="Line_488" data-name="Line 488" class="cls-5" x2="19.241" transform="translate(81.701 197.141)"/>
+    <text id="Límite_DAC" data-name="Límite DAC" class="cls-6" transform="translate(105.347 186.921)"><tspan x="3.27" y="11">Límite </tspan><tspan x="6.329" y="23">DAC</tspan></text>
+    <text id="_3_000_kWh" data-name="3,000 kWh" class="cls-6" transform="translate(44.802 198.731)"><tspan x="-22.153" y="0">3,000 kWh</tspan></text>
+    <text id="_5_304_kWh" data-name="5,304 kWh" class="cls-7" transform="translate(45 141.62)"><tspan x="-23.22" y="0">5,304 kWh</tspan></text>
+  </g>
+</svg>
