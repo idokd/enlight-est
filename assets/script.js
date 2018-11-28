@@ -487,18 +487,21 @@ window.addEventListener("load", function() {
   var s_box_label = smallDocument.getElementById("box_label");
   var s_box_content = smallDocument.getElementById("box_content");
   var s_main_price = smallDocument.getElementById("main_price");
+  var s_Rect = smallDocument.getElementById("smallRect");
   var mediumDocument = document.getElementById('mediumDocument').contentDocument;
   var m_main_energy = mediumDocument.getElementById("main_energy");
   var m_discount_energy = mediumDocument.getElementById("discount_energy");
   var m_box_label = mediumDocument.getElementById("box_label");
   var m_box_content = mediumDocument.getElementById("box_content");
   var m_main_price = mediumDocument.getElementById("main_price");
+  var m_Rect = mediumDocument.getElementById("mediumRect");
   var bigDocument = document.getElementById('bigDocument').contentDocument;
   var b_main_energy = bigDocument.getElementById("main_energy");
   var b_discount_energy = bigDocument.getElementById("discount_energy");
   var b_box_label = bigDocument.getElementById("box_label");
   var b_box_content = bigDocument.getElementById("box_content");
   var b_main_price = bigDocument.getElementById("main_price");
+  var b_Rect = bigDocument.getElementById("bigRect");
   var jsonArray = [
     {
       "s_main_energy" : "406 KWh", "s_discount_energy" : " ", "s_box_label" : "Tarifa DAC", "s_box_content" : " ", "s_main_price" : "$4,862",
@@ -594,11 +597,32 @@ window.addEventListener("load", function() {
   $('.customRadioBtn').on('click', function() {
     $('.item-content').each(function() {
       $(this).removeClass('active');
-    })
+    });
     $(this).parent().addClass('active');
     changeAllData($(this).data('select'));
     $('#object_setting').fadeOut();
     $('#solution_setting').fadeIn();
-  })
-}
+  });
+  // Click small document
+  $(s_Rect).on('click', function() {
+    console.log('small');
+    $('#smallDocument').css('height', '30vh');
+    $('#mediumDocument').css('height', '20vh');
+    $('#bigDocument').css('height', '15vh');
+  });
+  // Click medium document
+  $(m_Rect).on('click', function() {
+    console.log('medium');
+    $('#smallDocument').css('height', '20vh');
+    $('#mediumDocument').css('height', '30vh');
+    $('#bigDocument').css('height', '20vh');
+  });
+  // Click big document
+  $(b_Rect).on('click', function() {
+    console.log('big');
+    $('#smallDocument').css('height', '15vh');
+    $('#mediumDocument').css('height', '20vh');
+    $('#bigDocument').css('height', '30vh');
+  });
+  }
 });

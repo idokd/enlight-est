@@ -80,7 +80,7 @@
   <g id="Group_2891" data-name="Group 2891" transform="translate(15 15)">
     <g id="Group_2890" data-name="Group 2890" transform="translate(0 0)">
       <g class="cls-14" transform="matrix(1, 0, 0, 1, -15, -15)">
-        <rect id="Rectangle_2250-2" data-name="Rectangle 2250" class="cls-1" width="117.593" height="167.442" rx="10" transform="translate(15 15)"/>
+        <rect id="mediumRect" data-name="Rectangle 2250" class="cls-1" width="117.593" height="167.442" rx="10" transform="translate(15 15)"/>
       </g>
       <line id="Line_456" data-name="Line 456" class="cls-2" x2="84.999" transform="translate(16.297 42.749)"/>
       <line id="Line_457" data-name="Line 457" class="cls-2" x2="84.999" transform="translate(16.297 50.255)"/>
